@@ -1,0 +1,51 @@
+{
+	"intro": "intro",
+	"what": {
+		"title": "Que faisons-nous :",
+		"text": "Le négoce et de café vert et torréfié Société de conseil et de management de projet, dans les secteurs de l’industrie et du service."
+	},
+
+	"who": {
+		"title": "Qui sommes-nous",
+		"text": "Une équipe d’une vingtaine de professionnels partenaires en Suisse et à l’international La direction de la société." 
+	},
+
+	"coffeetrade": "Commerce de café",
+	"coffee": {
+		"title": "Café",
+		"text": "Nous sommes producteur, négociant-partenaire de coopératives, importateur et exportateur de café, issu de l’agriculture biologique, Grand Cru, Cafés de spécialité et des assemblages. Nous produisons du café dans les règles du Commerce Équitable, labellisé, avec des coopératives de petits producteurs et vendons des cafés torréfiés en Europe Centrale."
+	},
+	"origin": {
+		"title": "Origine",
+		"text": "Sur les montagnes de l’Est de l’Afrique, nous sommes coproducteur de café vert, parmi les meilleurs cafés du monde. Commercialisation de café Arabica et Robusta cultivé par des coopératives fédérant plus de 7.500 caféiculteurs."
+	},
+	"quality": {
+		"title": "Qualité",
+		"text": "Tradition et terroirs Cueilli par les petits producteurs, trié manuellement, lavé, séché et empaqueté par les coopératives suivant un cahier de charge précis, selon des méthodes africaines traditionnelles ancestralesCommerce Equitable et certifications Les cafés sont certifiés (AB, Ecocert Bio for Life) ou en cours de certification, arabica et robusta."
+	},
+
+	"management": {
+		"title": "Management - Conseil",
+		"intro": "SIVAHERA MANAGEMENT SA, est une société de conseil spécialisée en gestion, en stratégie et en organisation des entreprises et institutions : Conseil en stratégie et en organisation",
+		"list": [
+			"Les groupes internationaux à l'obtention de nouveaux marchés",
+			"Le montage et l’accompagnement à la mise en œuvre de projets industriels et commerciaux",
+			"Out Sourcing et intérim du management",
+			"Les organisations et les administrations dans l'amélioration de leur fonctionnement et l’efficience de leur organisation, définition de leurs besoins, de leurs stratégies et de leurs politiques publiques",
+			"Mise en œuvre des critères normatifs et standards internationaux dans les secteurs des douanes, du contrôle, de la sécurité, de l’industrie extractive et de la géologie, de l’industrie de transformation, construction et du financement de projet."
+		],
+		"atout": "Nos principaux atouts :",
+		"exp": "Une expertise des nouveaux marchés, spécialement en Afrique Un apport de solutions opérationnelles adaptées au contexte local et international",
+		"quote": "Notre valeur ajoutée : écouter, proposer, mobiliser"
+	},
+
+	"contact": {
+		"ide": "Identification d’entreprise IDE :",
+		"phone": "Telephone",
+		"adress": "Adresse :",
+		"title": "Transport",
+		"social": "Reseau sociaux",
+		"tram": "Ligne de tram n°15, direction Nation, Arrêt : Butini "
+
+	}
+}

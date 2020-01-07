@@ -1,0 +1,104 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
+@import 'libs/html-grid';
+// @import 'fontawesome-all.min.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800');
+
+/*
+	Paradigm Shift by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+.chooseLang {
+	position: fixed;
+	top: 20px;
+	right: 10px;
+	z-index: 1;
+	cursor: pointer;
+	// li {
+	// 	text-decoration: none;
+	// }
+	li {
+		display:block;
+		float:right;   
+		width:50px;
+		text-decoration:none;
+		text-align:center;
+		padding:5px;
+	}
+	img {
+		height: 20px;
+	}
+}
+
+
+// ul li {
+// 	display:block;
+// 	float:left;   
+// 	width:100px;
+// 	text-decoration:none;
+// 	text-align:center;
+// 	padding:5px;
+// }
+
+// Breakpoints.
+
+	@include breakpoints((
+		default:   (1681px,   null     ),
+		xlarge:    (1281px,   1920px   ),
+		large:     (1153px,   1280px   ),
+		medium:    (737px,    1152px   ),
+		small:     (481px,    736px    ),
+		xsmall:    (361px,    480px    ),
+		xxsmall:   (null,     360px    )
+	));
+
+// Base.
+
+	@import 'base/reset';
+	@import 'base/page';
+	@import 'base/typography';
+
+// Component.
+
+	@import 'components/row';
+	@import 'components/box';
+	@import 'components/button';
+	@import 'components/form';
+	@import 'components/icon';
+	@import 'components/image';
+	@import 'components/list';
+	@import 'components/actions';
+	@import 'components/icons';
+	@import 'components/table';
+	@import 'components/arrow';
+	@import 'components/gallery';
+	@import 'components/feature-icons';
+
+// Layout.
+
+	@import 'layout/wrapper';
+
+
+	footer {
+		p, a {
+			color: #DDD;
+		}
+		h3 {
+			color: #FFF;
+			margin: 0 0 0 0;
+		}
+	}
+	
+	
+.gallery {
+	margin-bottom: 20px;
+}
+
+.logo-img {
+	height: 150px;
+	width: 400px;
+}

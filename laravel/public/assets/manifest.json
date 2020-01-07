@@ -1,0 +1,5 @@
+{
+  "app.css": "/public/assets/app.css",
+  "app.js": "/public/assets/app.js",
+  "mix.js": "/public/assets/mix.js"
+}
