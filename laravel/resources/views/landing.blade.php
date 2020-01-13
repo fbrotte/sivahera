@@ -8,6 +8,7 @@
         <title>SIVAHERA</title>
         <link rel="icon" href="img/ico.png" type="image/png">
         <link href=" {{ mix('css/app.css') }}" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
     </head>
     <body>
         <div id="app">

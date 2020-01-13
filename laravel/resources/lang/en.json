@@ -2,18 +2,20 @@
 	"intro": "intro",
 	"what": {
 		"title": "What we do:",
-		"text": "Green and Roasted coffee Trade Consulting and project management company, in the industry and service sectors"
+		"text": ["Green and Roasted coffee Trade", "Consulting and project management company, in the industry and service sectors"]
 	},
 
 	"who": {
 		"title": "Who we are:",
-		"text": "A team of twenty professional partners in Switzerland and abroad Management:" 
+		"text": ["A team of twenty professional partners in Switzerland and abroad Management:",
+			"The management of the company :"],
+		"direction": ["Patrick Sivahera, ENA Paris (Ecole Nationale d’Administration), Master in Business Law (IDA, Université d’Aix-Marseille), Master in Finance ( IAE, Université Paris Panthéon-Sorbonne) former international consultant, CEO and founding director", "Emmanuelle Gamby-Gibello, Master in Business Law, Master in Communication and Marketing, company executive and founding manager"] 
 	},
 
 	"coffeetrade": "Coffee Trade",
 	"coffee": {
 		"title": "Coffee",
-		"text": "We are producer, trader-partner of cooperatives, Importer and Exporter of coffee from organic farming, Grand Cru, specialty coffees and blends. We produce Fair Trade coffee, labeled, with cooperatives of small producers and sell roasted coffee in Central Europe."
+		"text": ["We are producer, trader-partner of cooperatives, Importer and Exporter of coffee from organic farming, Grand Cru, specialty coffees and blends.", "We produce Fair Trade coffee, labeled, with cooperatives of small producers and sell roasted coffee in Central Europe."]
 	},
 	"origin": {
 		"title": "Origin",
@@ -21,8 +23,16 @@
 	},
 	"quality": {
 		"title": "Quality",
-		"text": "Tradition and terroirs. Picked by small producers, sorted manually, washed, dried and packaged by cooperatives according to precise specifications, according to traditional African ancestral methods. Fair Trade and certifications. Certified coffees (AB, Ecocert Bio for Life) or in the process of certification, arabica and robusta."
+		"tradition": {
+			"title": "Tradition and terroirs.",
+			"text": "Picked by small producers, sorted manually, washed, dried and packaged by cooperatives according to precise specifications, according to traditional African ancestral methods."
+		},
+		"equitable": {
+			"title": "Fair Trade and certifications",
+			"text": "Certified coffees (AB, Ecocert Bio for Life) or in the process of certification, arabica and robusta."
+		}
 	},
+	"citation": "From the plantation to the cup",
 
 	"management": {
 		"title": "Management - Conseil",
@@ -34,8 +44,8 @@
 			"Organization and administration in the definition of their needs, their strategies and public policies in the areas of services, industrial and sustainable development with additionally improving their functioning and the efficiency of their organization",
 			"Normative framework, regulation and International standard criteria in several sectors as customs, control, security, extractive industry, geology, processing industry, construction and projects financing. "
 		],
-		"atout": "Our main strengths: expertise of emerging markets, especially in Africa providing operational solutions adapted to the local context.",
-		"exp": "Our added value: ",
+		"atout": "Our added value:",
+		"exp": "expertise of emerging markets, especially in Africa providing operational solutions adapted to the local context.",
 		"quote": "listening, suggesting, mobilizing"
 	},
 

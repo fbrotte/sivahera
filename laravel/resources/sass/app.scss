@@ -7,16 +7,17 @@
 // @import 'fontawesome-all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800');
 
+$c-important:  #710D12;
 /*
 	Paradigm Shift by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 .chooseLang {
-	position: fixed;
-	top: 20px;
+	position: absolute;
+	top: 10px;
 	right: 10px;
-	z-index: 1;
+	z-index: 4;
 	cursor: pointer;
 	// li {
 	// 	text-decoration: none;
@@ -78,27 +79,9 @@
 	@import 'components/gallery';
 	@import 'components/feature-icons';
 
-// Layout.
-
+	// Layout.
 	@import 'layout/wrapper';
 
-
-	footer {
-		p, a {
-			color: #DDD;
-		}
-		h3 {
-			color: #FFF;
-			margin: 0 0 0 0;
-		}
-	}
-	
-	
-.gallery {
-	margin-bottom: 20px;
-}
-
-.logo-img {
-	height: 150px;
-	width: 400px;
-}
+	@import 'custom.sass';
+	@import 'navbar.scss';
+		

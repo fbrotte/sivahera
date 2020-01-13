@@ -2,18 +2,21 @@
 	"intro": "intro",
 	"what": {
 		"title": "Que faisons-nous :",
-		"text": "Le négoce et de café vert et torréfié Société de conseil et de management de projet, dans les secteurs de l’industrie et du service."
+		"text": ["Le négoce de café vert et torréfié.", "Société de conseil et de management de projet, dans les secteurs de l’industrie et du service."]
 	},
 
 	"who": {
 		"title": "Qui sommes-nous",
-		"text": "Une équipe d’une vingtaine de professionnels partenaires en Suisse et à l’international La direction de la société." 
+		"text": ["Une équipe d’une vingtaine de professionnels partenaires en Suisse et à l’international", "La direction de la société :"],
+		"direction": ["Patrick Sivahera, ENA Paris (Ecole Nationale d’Administration), Master en droit des affaires (IDA, Aix-Marseille) et Master en finances (IAE, Paris Panthéon-Sorbonne) Ancien consultant international et dirigeant fondateur"
+			,"Emmanuelle Gamby-Gibello, Master en droit des affaires, Master en communication et marketing, cadre en entreprise et dirigeante fondatrice"]
 	},
 
 	"coffeetrade": "Commerce de café",
 	"coffee": {
 		"title": "Café",
-		"text": "Nous sommes producteur, négociant-partenaire de coopératives, importateur et exportateur de café, issu de l’agriculture biologique, Grand Cru, Cafés de spécialité et des assemblages. Nous produisons du café dans les règles du Commerce Équitable, labellisé, avec des coopératives de petits producteurs et vendons des cafés torréfiés en Europe Centrale."
+		"text": ["Nous sommes producteur, négociant-partenaire de coopératives, importateur et exportateur de café, issu de l’agriculture biologique, Grand Cru, Cafés de spécialité et des assemblages.",
+			"Nous produisons du café dans les règles du Commerce Équitable, labellisé, avec des coopératives de petits producteurs et vendons des cafés torréfiés en Europe Centrale."]
 	},
 	"origin": {
 		"title": "Origine",
@@ -21,8 +24,16 @@
 	},
 	"quality": {
 		"title": "Qualité",
-		"text": "Tradition et terroirs Cueilli par les petits producteurs, trié manuellement, lavé, séché et empaqueté par les coopératives suivant un cahier de charge précis, selon des méthodes africaines traditionnelles ancestralesCommerce Equitable et certifications Les cafés sont certifiés (AB, Ecocert Bio for Life) ou en cours de certification, arabica et robusta."
+		"tradition": {
+			"title": "Tradition et terroirs",
+			"text": "Cueilli par les petits producteurs, trié manuellement, lavé, séché et empaqueté par les coopératives suivant un cahier de charge précis, selon des méthodes africaines traditionnelles ancestrales"
+		},
+		"equitable": {
+			"title": "Commerce Equitable et certifications",
+			"text": "Les cafés sont certifiés (AB, Ecocert Bio for Life) ou en cours de certification, arabica et robusta."
+		}
 	},
+	"citation": "De la plantation, à la tasse",
 
 	"management": {
 		"title": "Management - Conseil",
