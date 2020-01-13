@@ -54,6 +54,7 @@
 		"ide": "Identification d’entreprise IDE :",
 		"phone": "Telephone",
 		"adress": "Adresse :",
+		"textAdress": ["Le château Banquet", "Rue de Lausanne 94", "1202 Genève – Suisse"],
 		"title": "Transport",
 		"social": "Reseau sociaux",
 		"tram": "Ligne de tram n°15, direction Nation, Arrêt : Butini "

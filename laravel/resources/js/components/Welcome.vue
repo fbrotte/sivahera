@@ -32,11 +32,11 @@
             </ul>
         </div>
 
-        <section>
-            <header>
-                <h2>Intro</h2>
-            </header>
+        <section id="intro">
+            <header><h2>Intro</h2></header>
+
             <div class="content">
+				
                 <h3>{{$lang.what.title}}</h3>
                 <p v-for="text in $lang.what.text">{{text}}</p>
 
@@ -55,15 +55,20 @@
             </header>
             <div class="content">
                 <h3>{{$lang.coffee.title}}</h3>
-				<blockquote><p class="slogant">{{$lang.citation}}</p></blockquote>
+
                 <p v-for="text in $lang.coffee.text">{{text}}</p>
+
+				<blockquote><p class="slogant">{{$lang.citation}}</p></blockquote>
+
                 <div class="gallery">
                     <a><img :src="'img/cerises-vertes.jpg'" alt="" /></a>
                     <a><img :src="'img/cuiellette.jpg'" alt="" /></a>
                 </div>
 
-                <h3>{{$lang.origin.title}}</h3>
-                <p>{{$lang.origin.text}}</p>
+				<div class="row">
+					<h3>{{$lang.origin.title}}</h3>
+					<p>{{$lang.origin.text}}</p>
+				</div>
 
                 <h3>{{$lang.quality.title}}</h3>
 				<strong>{{$lang.quality.tradition.title}}</strong>
@@ -117,7 +122,7 @@
                     </li>
                     <li>
                         <h3>{{$lang.contact.adress}}</h3>
-                        <p>1234 Somewhere Road, Nashville, TN 00000</p>
+                        <p class="adress" v-for="text in $lang.contact.textAdress">{{text}}</p>
                     </li>
                     <li>
                         <h3>{{$lang.contact.title}}</h3>
@@ -137,7 +142,7 @@
 
         <!-- Copyright -->
 		<footer>
-        	&copy; 2020 - <a href="#">Mention Légale</a> - Créer par <a href="https://comon-real.fr">Com'On Réal</a>.
+        	<p>&copy; 2020 - <a href="#">Mention Légale</a> - Créer par <a href="https://comon-real.fr">Com'On Réal</a>.</p>
 		</footer>
     </div>
 </template>
